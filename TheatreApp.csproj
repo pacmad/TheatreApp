@@ -28,6 +28,8 @@
     <Compile Include="Movie.cs" />
     <Compile Include="MovieDay.cs" />
     <Compile Include="Theatre.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="MovieGenre.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
