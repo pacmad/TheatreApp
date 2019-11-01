@@ -25,6 +25,11 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Time.cs" />
+    <Compile Include="Show.cs" />
+    <Compile Include="MovieGenre.cs" />
+    <Compile Include="Movie.cs" />
+    <Compile Include="MovieDay.cs" />
+    <Compile Include="Theatre.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
