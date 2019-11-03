@@ -4,10 +4,10 @@ namespace TheatreApp
     public class Show
     {
        public double Price { get; }
-        public Day Day { get; }
+        public MovieDay Day { get; }
         public Movie Movie { get; }
         public Time Time { get; }
-        public Show(Movie movie, Day day, double price, Time time)
+        public Show(Movie movie, MovieDay day, double price, Time time)
         {
             Movie = movie;
             Day = day;
